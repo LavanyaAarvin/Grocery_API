@@ -13,7 +13,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.viewGroceryItems = exports.addGroceryItem = void 0;
-const database_1 = __importDefault(require("../../database"));
+const database_1 = __importDefault(require("../../../database"));
 const addGroceryItem = (name, price, quantity) => __awaiter(void 0, void 0, void 0, function* () {
     const client = yield database_1.default.connect();
     try {

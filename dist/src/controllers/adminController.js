@@ -10,7 +10,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.viewItems = exports.addItem = void 0;
-const groceryService_1 = require("../services/groceryService");
+const groceryService_1 = require("../../../src/services/groceryService");
 // Admin Controller
 const addItem = (req, res) => __awaiter(void 0, void 0, void 0, function* () {
     try {
